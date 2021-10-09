@@ -11,7 +11,8 @@ When I click the save button for that timeblock, the text for that event is save
 When I refresh the page, the saved events persist
 
 ---
-Deployed URL: https://taliitacamargo.github.io/work-day-scheduler/index.html       GitHub Repo: https://github.com/taliitacamargo/work-day-scheduler.git
+Deployed URL: https://taliitacamargo.github.io/work-day-scheduler/index.html     
+GitHub Repo: https://github.com/taliitacamargo/work-day-scheduler.git
 
 ---
 
