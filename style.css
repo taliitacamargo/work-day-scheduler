@@ -11,12 +11,15 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    font-family: 'Neuton', serif;
+    font-size:30px;
    
     
   }
   
   .jumbotron {
     text-align: center;
+    font-family: 'Neuton', serif;;
     background-color: transparent;
     color: black;
     border-radius: 0;
@@ -68,8 +71,6 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
-    
-    
   }
   
   .saveBtn i:hover {

@@ -18,17 +18,17 @@ $("#currentDay").text(dayWeek);
         function timeRecord() {
         var theTimeNow = moment().hour();
         $(".time-block").each(function() {
-            var BlockTime = parseInt($(this).attr("id").split("hour")[1]);
+            var BlockTime = parseInt($(this).attr("id").split("hrs")[1]);
 if (BlockTime < theTimeNow ) {
-            $(this).removeClass("future");
-            $(this).removeClass("present");
-            $(this).addClass("past");
-        }
+        $(this).removeClass("future");
+        $(this).removeClass("present");
+        $(this).addClass("past");
+     }
        
  else if ( BlockTime === theTimeNow) {
-            $(this).removeClass("past");
-            $(this).removeClass("future");
-            $(this).addClass("present");
+        $(this).removeClass("past");
+        $(this).removeClass("future");
+        $(this).addClass("present");
         
         }
         
