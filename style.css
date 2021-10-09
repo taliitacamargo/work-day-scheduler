@@ -11,6 +11,8 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+   
+    
   }
   
   .jumbotron {
@@ -23,6 +25,7 @@ body {
   
   .description {
     white-space: pre-wrap;
+    
   }
   
   .time-block {
@@ -40,6 +43,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    list-style: none;
+   
   }
   
   .past {
@@ -63,6 +68,8 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    
+    
   }
   
   .saveBtn i:hover {
@@ -70,3 +77,23 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+
+@media screen and (max-width:768px) {
+  
+
+
+  section { 
+    margin: 50px;
+  }
+
+  .hour {
+    padding:5px;
+  }
+
+  .btn {
+    border-radius: 5px;
+  }
+
+}
+
+
