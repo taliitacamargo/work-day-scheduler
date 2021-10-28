@@ -20,3 +20,4 @@ Technologies used : HTML, CSS, JAVASCRIPT
 ![Work Day Scheduler](https://user-images.githubusercontent.com/88398240/136669380-5b036f68-808d-4825-9e5f-952d4d130266.jpg)
 
 ---
+Contact: taliitacamargo@icloud.com
